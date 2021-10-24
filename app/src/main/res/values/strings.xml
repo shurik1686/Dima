@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dima</string>
+    <string name="lego">LEGO от Димы</string>
+    <string name="logo">logo</string>
+    <string name="logo2">logo2</string>
+    <string name="name_exit">Выход</string>
+    <string name="LayoutHome">Дом</string>
+</resources>

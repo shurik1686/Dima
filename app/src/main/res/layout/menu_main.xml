@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="395dp"
+            android:layout_height="634dp" app:srcCompat="@drawable/imagelego7912a16c5442"
+            android:id="@+id/imageView3" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:contentDescription="@string/LayoutHome"/>
+    <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                                android:id="@+id/guideline" app:layout_constraintGuide_begin="20dp"
+                                                android:orientation="vertical"/>
+    <Button
+            android:text="@string/name_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="5dp" android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"/>
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp" app:srcCompat="@drawable/imagelegoi" android:id="@+id/imageView4"
+            android:contentDescription="san" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="30dp" android:layout_marginStart="30dp"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
